@@ -4,59 +4,80 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial scale=1.0">
 	
-	<!-- FONT AWESOM STYLESHEET -->
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<!-- Font awesome stylesheet -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
-	<!-- BOOTSTRAP STYLESHEET -->
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- Bootstrap stylesheet -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+
+	<!-- Google fonts stylesheet -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'> 
+
  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-	<!-- OUR STYLESHEET -->
+	<!-- Our stylesheet -->
 	<link rel="stylesheet" href="./styles/styles.css">
-	<!--  -->
 
 	<title>Willclaim Solicitors | No Win No Fee | Contesting A Will</title>
 </head>
 
-<body>
+<body class="body">
 	<div>
-		<header>
-			<div class="container">
-		  		<div class="row"></div>
-		    	<div class="col-sm-4">
-		      		<img src="./images/logo.jpeg" alt="Willclaim Solicitors">
-		      	</div>
-		    	<div class="col-sm-4"></div>
-		    	<div class="col-sm-4">
-		      	<p>Telephone number here</p>
-		    </div>
-	  	</div>
-		<!-- header with logo and telephone number. click to call enabled -->
+	<div class="container-fluid">
+		<header class="header">
+		  		<div class="row clearfix">
+		    	<a class="logo" href="/">
+		      		<img class="logo" src="./images/logo.jpg" alt="Willclaim Solicitors">
+		      	</a>
+
+				<ul class="contact">
+					<li><i class="fa fa-phone-square" aria-hidden="true"></i><a href="tel:020 3322 5103">020 3322 5103</a></li>
+				</ul>
+			</div>
 		</header>
+	</div>
+	</div>
+
+
+	  		
+		<!-- header with logo and telephone number. click to call enabled -->
+		
+	<section class="page-content">
 	<div>
-		<nav>
-			<div class="container">
-		<!-- navigation menu -->
-				<ul>
-					<li>About</li>
-					<li>Contact Us</li>
-					<li>Free Claim Assessment</li>
-					<li>Start Your Claim Now</li>
+		<nav class="nav">
+			<div class="container-fluid">
+				<div id="main">
+				  <span style="font-size:25px;cursor:pointer" onclick="openNav()">☰</span>
+				</div>
+				<div id="mySidenav" class="sidenav">
+				  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				  <a href="#">About</a>
+				  <a href="#">Contact</a>
+				  <a href="#">Blog</a>
+			</div>		
+				<ul class="mobile-hide">
 				</ul>
 			</div>
 	  	</nav>
 	</div>
-		
-	<main>
 		<!-- main content / 2/3 page width -->
 		<!-- video iframe with video embed from youtube / autoplay -->
-	<div class="container">
+	<div class="container">	
+		<div class="row">
+		<div class="col-md-8">
+			<h2>Have You Been Unfairly Left Out Of A Will?</h2>
+			  <p>If you feel that you have been unfairly left out of a Will, have not been adequately provided for, or you are acting as an executor and somebody else is contesting the Will, our specialist team of lawyers can help.</p>
+			  <div class="embed-container">
+			  	<div class="embed-responsive embed-responsive-16by9">
+    			<iframe class="embed-responsive-item" width="640" height="400" src="https://www.youtube.com/embed/m7RwAvQY7w4?rel=0&amp;autoplay=1&amp;start=0&amp;showinfo=0&amp;controls=0&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
+				</div>	
+			</div>
 		<div class="main-content">
-		  <h2>Contesting A Will</h2>
-			  <p>Have you have been unfairly left out of a Will? Do you want to claim what is rightfully yours?</p>
-			  <p>Losing a relative is one of the most difficult things any of us have to go through. The grieving process can be made even more difficult when there is a dispute over a Will. If you feel that you have been unfairly left out of a Will, have not been adequately provided for, or you are acting as an executor and somebody else is contesting the Will, our specialist team of lawyers can help you. And in most cases we can act for you on a “No Win No Fee” basis</p>
-			  <h2>Reasons To Contest A Will</h2>
+			<h3>"No Win No Fee" - Contesting A Will</h3>
+				<p>In the majority of cases we work on a "No Win No Fee" basis. "No Win No Fee" does exactly what it says on the tin, a fee will only be charged if the Will contest or Will claim is successful.</p>
+			<h2>Reasons To Contest A Will</h2>
 			  <p>There are a number of reasons to contest a Will, the following are the most common grounds for contesting a Will.</p>
 				  <ul>
 				  	<li>Lack of Testamentary Capacity. Where the testator lacked the mental capacity to write a will. This is very common with testators who have had dementia or have been under the influence of painkillers or medication that impacted their ability to make fluid independent decisions.</li>
@@ -66,34 +87,82 @@
 				  	<li>Instances where you believe that the will has been negligently or fraudulently written (for instance forged or perhaps signed and executed on a different date) – this is one of the most common legal scenarios.</li>
 				  	<li>Where a Trustee is acting in his/her own self interest and in breach of the terms of the Trust and/or has failed to properly call in property belonging to the Trust, keep it safely and distribute it as per the Trust terms.</li>
 				  </ul>
-		  <h2>No Win No Fee</h2>
-		  <p>In most cases we can work on a "No Win No Fee" basis. A "No Win No Fee" arrangement offers you an acceptable alternative to fund your Will claim. It does exactly what it says on the tin, a "fee" can only be raised if the Will contest or Will claim is successful.</p>
-		  <h2>Free Initial Assessment</h2>
-		  <p>Start your claim now by calling 020 3322 5103 or complete the form on this page and let one of our expert lawyers assess your case absolutely free of charge and with no obligation.</p>	
-		 </div>
-		 </main>
-	</div>
-	<div>
-		<aside>
-			<div class="container">
-				<div class="aside">
-					<p>This is the form section - Name, Email, Tel Number, Claim Type. 
-					<!-- sidebar / claim assessment form / 1/3 page width -->
-					<!-- form fields? name, email, contact number - revert to client -->
-					</p>
-				</div>
-			</div>
-		</aside>
-	</div>
-	<footer>
-		<div class="container">
-			<div class="footer">
-			<p>This is the footer section</p>
+			<h1 class="mobile-hide">Start Your Claim Now: 020 3322 5103</h1>
 			</div>
 		</div>
-		<!-- footer / full width -->
-	</footer>
-		
+				 <div class="col-md-4">
+				  	<h2>Free Claim Assessment</h2>
+				  	<p>Start your claim today by calling 020 3322 5103 and have your case assessed free of charge and with no obligation.</p>
+				<div class="cta">
+					<p class="cta-title">Free Claim Assessment</p>
+				</div>
+				<div class="form">
+					<form>
+						<fieldset class="form-group">
+						    <label for="name">Full name (required)</label>
+						    <input type="name" class="form-control" id="name" placeholder="Enter your name">
+						  </fieldset>
+						  <fieldset class="form-group">
+						    <label for="Email">Email address (required)</label>
+						    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+						    <small class="text-muted">Your privacy is 100% guaranteed.</small>
+						  </fieldset>
+						  <div class="call-back">
+						  	<p>Request a call back</p>
+						  </div>
+						  <div class="radio">
+						    <label>
+						      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+						      Yes
+						    </label>
+						  </div>
+						  <div class="radio">
+						    <label>
+						      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+						      No
+						    </label>
+						  </div>
+						  <fieldset class="form-group">
+						  	<label for="name">Contact number</label>
+						    <input type="telephone" class="form-control" id="telephone" placeholder="Enter your number">
+						   </fieldset>  
+						  <fieldset class="form-group">
+						    <label for="exampleTextarea">Brief details of your claim</label>
+						    <textarea class="form-control" id="details" rows="10"></textarea>
+						  </fieldset>
+						  <fieldset class="form-group">
+						    <label for="exampleInputFile">File upload</label>
+						    <input type="file" class="form-control-file" id="exampleInputFile">
+						    <small class="text-muted">If you have a copy or a scan of the Will you can upload the file here.</small>
+						  </fieldset>
+						  <button type="submit" class="btn btn-primary">Submit your details</button>
+					</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+		<section class="pre-footer"></section>
+			<footer class="footer">	
+				<div class="row">
+				</div>
+
+		</footer>
+
+		</div>	<!-- footer / full width -->
+		<script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+		<script src="./scripts/main.js"></script>
+		<script>
+		function openNav() {
+		    document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+		    document.getElementById("mySidenav").style.width = "0";
+		}
+</script>
+     
 </body>
 
 </html>
